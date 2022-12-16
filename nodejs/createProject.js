@@ -15,7 +15,7 @@ async function main () {
   const req = gql`
     mutation {
       createProject(input: {
-        id: $user_id,
+        userID: $user_id,
         name: "gql-test"
         owner: "zeet-demo",
         repo: "node-express-demo",

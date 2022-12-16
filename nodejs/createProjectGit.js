@@ -18,7 +18,7 @@ async function main () {
   const req = gql`
     mutation {
       createProjectGit(input: {
-        id: $user_id,
+        userID: $user_id,
         name: "my-new-app"
         projectName: "nodel-express-demo-123",
         environmentName: "production"
